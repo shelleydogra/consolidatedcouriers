@@ -23,12 +23,16 @@ nav .nav-item:hover {
    background-color: #0F70B7;
 }
 
- .navbar-toggler-icon {
+.dropdown-menu > .active > a, .dropdown-menu > .active > a:hover, .dropdown-menu > .active{
+    text-decoration: underline;
+}
+
+.navbar-toggler-icon {
     border: 2px solid #0F70B7;
     border-radius: 4px;
 }
 
- .navbar-toggler-icon:hover {
+.navbar-toggler-icon:hover {
     border: 2px solid #CC1E27;
     border-radius: 4px;
 }
@@ -39,6 +43,12 @@ nav .nav-item:hover {
 
 .separator-red-thin {background-color: #CC1E27; height: 5px; margin-bottom: 5px; border: 1px solid #CC1E27; border-radius: 10px; }
 .separator-blue-thin {background-color: #0F70B7; height: 5px; margin-bottom: 5px; border: 1px solid #0F70B7; border-radius: 10px; }
+
+
+
+.jumbotron {
+    
+}
 
 
 .carousel {
