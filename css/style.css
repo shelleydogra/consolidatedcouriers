@@ -47,10 +47,11 @@ nav .nav-item:hover {
 
 
 .jumbotron {
-    background-image: url(images/ccl.png);url(../images/ccl_logo.png);
     border: solid #CC1E27;
-    color: #fff;
-    background-color: #0F70B7;
+    color: #0F70B7;
+/*     background-color: #0F70B7; */
+    background-color: #fff;
+    padding: 20px;
 }
 
 
