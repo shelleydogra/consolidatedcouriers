@@ -66,12 +66,16 @@ nav .nav-item:hover {
 
 .carousel-caption {
     background-color: rgba(115, 115, 115, 0.17);
-    
+}
+
+.carousel-indicators:hover {
+    cursor: hand;
 }
 
 /* CARD */
 .card {
     margin: 0px auto 25px auto;
+    text-align: center;
 }
 
 .card .card-body {
@@ -81,7 +85,17 @@ nav .nav-item:hover {
 .card .card-img-top {
     box-shadow: 1px 1px 5px #666;
 }
+
+.btn-primary {
+    background-color: #0F70B7; 
+    border: none;
+}
+
+.btn-primary:hover {
+    border: #CC1E27 1px solid;
+}
 /* CARD */
+
 
 /* FOOTER */
 footer {
@@ -103,9 +117,19 @@ footer a:hover {
     transition: all 0.3s ease 0s;
     text-decoration: none;
 }
-/* FOOTER */
+
+footer .column {
+/*     margin-bottom: 20px; */
+    
+}
 
 .copyright{margin-top: 25px;}
+
+.text-muted {
+    font-size: .8em;
+}
+/* FOOTER */
+
 
 
 /* DEBUG: dashed border */
