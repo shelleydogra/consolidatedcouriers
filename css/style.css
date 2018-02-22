@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 400; color: #555; }
+
 
 nav {
     margin: 0px auto 25px auto;
@@ -76,6 +80,7 @@ nav .nav-item:hover {
 .card {
     margin: 0px auto 25px auto;
     text-align: center;
+    
 }
 
 .card .card-body {
@@ -86,13 +91,18 @@ nav .nav-item:hover {
     box-shadow: 1px 1px 5px #666;
 }
 
-.btn-primary {
-    background-color: #0F70B7; 
+.card .card-text {
+    
+}
+
+.card .btn {
+    color: #0F70B7; 
     border: none;
 }
 
-.btn-primary:hover {
-    border: #CC1E27 1px solid;
+.card .btn:hover {
+    color: rgba(15, 113, 184, 0.75);
+    text-decoration: none;
 }
 /* CARD */
 
