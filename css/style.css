@@ -184,3 +184,7 @@ footer .column {
     .jumbotron .contact-item-text {font-size: 1.2em;}
 }
 
+@media screen and (orientation:landscape) {
+    background-color: aqua;
+}
+
