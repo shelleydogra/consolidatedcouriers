@@ -185,8 +185,6 @@ footer .column {
 }
 
 @media screen and (orientation:landscape) {
-    .jumbotron {
-        background-color: aqua;
-    }
+    
 }
 
