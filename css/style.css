@@ -59,9 +59,12 @@ nav .nav-item:hover {
 .jumbotron {
     border: solid #CC1E27;
     color: #0F70B7;
-/*     background-color: #0F70B7; */
     background-color: #fff;
     padding: 20px;
+}
+
+.jumbotron a {
+    color: #0F70B7;
 }
 
 
