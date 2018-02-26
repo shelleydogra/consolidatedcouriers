@@ -2,6 +2,9 @@
 
 body { font-family: 'Open Sans', sans-serif; font-size: 16px; font-weight: 400; color: #555; }
 
+#page {
+    padding-bottom: 10px;
+}
 
 nav {
     margin: 0px auto 25px auto;
@@ -63,6 +66,10 @@ nav .nav-item:hover {
     padding: 20px;
 }
 
+.jumbotron .hero {
+    width: 300px;
+}
+
 .jumbotron a {
     color: #0F70B7;
 }
@@ -100,8 +107,12 @@ nav .nav-item:hover {
     box-shadow: 1px 1px 5px #666;
     }
 
-.card .card-text p {
-    font-size: 1.3rem;
+.card .card-title {
+    font-size: 2.2rem;
+}
+
+.card .card-text {
+    font-size: 1.4rem;
 }
 
 .card .btn {
@@ -153,6 +164,32 @@ footer .column {
 /* FOOTER */
 
 
+.fixed-bottom {
+    color: #fff;
+    margin: 0px;
+    padding: 0px;
+    height: 35px;
+}
+
+.fixed-bottom .btn {
+    color: #fff; 
+    border: none;
+    background-color: #0F70B7;
+    width: 100%;
+}
+
+.fixed-bottom .btn:hover {
+    color: #fff; 
+    border: none;
+    background-color: #CC1E27;
+    width: 100%;
+}
+
+
+
+
+
+
 
 /* DEBUG: dashed border */
 .debug {border: red solid 3px;}
@@ -165,30 +202,42 @@ footer .column {
 @media screen and (max-width: 769px){
     nav img{width: 190px; height: 85px;}
     .jumbotron .contact-item-text {font-size: 2.0em;}
+    .jumbotron .hero {width: 290px;}
 }
 
 @media screen and (max-width: 575px) {
     .jumbotron .contact-item-text {font-size: 1.9em;}
+    .jumbotron .hero {width: 290px;}
 }
 
 @media screen and (max-width: 425px) {
         nav img{width: 160px; height: 73px;}
         .contact-item-text{font-size: 1.8em;}
+        .display-4{font-size: 2.4rem;}
+        .jumbotron .hero {width: 280px;}
 }
 
 @media screen and (max-width: 392px) {
     .jumbotron .contact-item-text {font-size: 1.7em;}
+    .display-4{font-size: 2.2rem;}
+    .jumbotron .hero {width: 270px;}
 }
 
 @media screen and (max-width: 363px) {
     .jumbotron .contact-item-text {font-size: 1.3em;}
+    .display-4{font-size: 2.1rem;}
+    .jumbotron .hero {width: 260px;}
 }
 
 @media screen and (max-width: 283px) {
     .jumbotron .contact-item-text {font-size: 1.2em;}
+    .display-4{font-size: 2.0rem;}
+    .jumbotron .hero {width: 250px;}
 }
 
 @media screen and (orientation:landscape) {
-    
+    .navbar-brand .hero {
+        
+    }   
 }
 
