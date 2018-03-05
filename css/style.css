@@ -24,7 +24,7 @@ nav .nav-item:hover {
     background-color: #CC1E27;
     border-radius: 10px;
     transition: all 0.4s ease 0s;
-    margin 0;
+    margin 0px;
 }
 
 .dropdown-menu {
@@ -40,12 +40,12 @@ nav .nav-item:hover {
     margin: 0;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler {
     border: 2px solid #0F70B7;
     border-radius: 4px;
 }
 
-.navbar-toggler-icon:hover {
+.navbar-toggler:hover {
     border: 2px solid #CC1E27;
     border-radius: 4px;
 }
@@ -145,7 +145,7 @@ footer a {
 
 footer a:hover {
     color: #fff;
-    background-color: #CC1E27;
+    background-color: ç;
     border-radius: 5px;
     transition: all 0.3s ease 0s;
     text-decoration: none;
@@ -168,26 +168,30 @@ footer .column {
     color: #fff;
     margin: 0px;
     padding: 0px;
-    height: 35px;
+    display: block;
+    text-align: center;
 }
 
-.fixed-bottom .btn {
+.btnOrderTop .btn {
     color: #fff; 
     border: none;
     background-color: #0F70B7;
-    width: 100%;
+    width: 200px;
 }
 
-.fixed-bottom .btn:hover {
+.btnOrderBottom .btn {
     color: #fff; 
     border: none;
-    background-color: #CC1E27;
-    width: 100%;
+    background-color: #0F70B7;
 }
 
+.btnOrderTop .btn:hover {
+    color: #fff; 
+    background-color:#CC1E27;
+    border: 0;
+    border-radius: 10px;
 
-
-
+}
 
 
 
@@ -198,11 +202,29 @@ footer .column {
 .debug-purple{border: purple solid 3px;}
 .debug-aqua{border: aqua solid 3px;}
 
-
 @media screen and (max-width: 769px){
-    nav img{width: 190px; height: 85px;}
+     nav img{width: 190px; height: 85px;}
     .jumbotron .contact-item-text {font-size: 2.0em;}
     .jumbotron .hero {width: 290px;}
+
+}
+
+@media screen and (max-width: 710px){
+    .btnOrderTop .btn {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 660px){
+    .btnOrderTop .btn {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 630px){
+    .btnOrderTop .btn {
+        width: 75px;
+    }
 }
 
 @media screen and (max-width: 575px) {
