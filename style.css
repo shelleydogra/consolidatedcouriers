@@ -20,6 +20,7 @@ table {
     border: 3px outset #666;
     background-color: #477747;
     text-align: center;
+    border-spacing: 8px;
 }
 
 table td {
@@ -29,6 +30,7 @@ table td {
 
 table .logo {
     background-color: #fff;
+    width: 120px;
 }
 
 table .heading {
